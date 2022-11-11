@@ -9,7 +9,9 @@ This challenge was to provide insights to a manufacturing team about production 
 
 ## Linear Regression to Predict MPG
 
-The Linear Regression conducted on a MechaCar dataset with a sample size of 50 prototypes produced the follow results. 
+The Linear Regression conducted on a MechaCar dataset with a sample size of 50 prototypes produced the follow results.
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/109915684/201388466-8f214bf6-6a7a-40c8-b2ab-ce843f73069f.png">
 
 According to the findings the r-squared value from the linear regression model is 0.711, that gives a confidence that this model has a 71% accuracy. The p-value of the linear regression
 analysis is 6.712e-11, this is less than the significance level of 0.05%. Hence there is sufficient evidence to reject the null hypothesis and the slope of this model is not equal to zero.
@@ -18,7 +20,11 @@ analysis is 6.712e-11, this is less than the significance level of 0.05%. Hence 
 
 The Summary Statistics for the Manufacturing Lot produced below displays the mean is 1498.78 and the population mean for the sample was 1500.
 
+<img width="378" alt="image" src="https://user-images.githubusercontent.com/109915684/201388529-3aef23c5-9e75-406f-88cd-7b5d176959ec.png">
+
 The different Manufacturing Lots’ means are similar to that of the sample mean and population mean. 
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/109915684/201388639-7bca8a9b-cb21-4814-ac20-a766a712762e.png">
 
 Based on the required design specification for the Suspension Coils mandate to not exceed 100 pounds per square inch (PSI). The Total Manufacturing Lot variance is 62.29 < 100 and this is approximately the stated requirement.  Upon reviewing by lots and performing a deeper analysis, Lot 1 had a low variance of 1 and Lot 2 a variance of 7. But Lot 3 had a significantly high variance of 170 > 100 which did not meet the design specifications. 
 
@@ -26,19 +32,19 @@ Based on the required design specification for the Suspension Coils mandate to n
 
 All the Manufacturing Lots: p-value = .60.  This means the total manufacturing lot is not statistically significant from the normal distribution and is exemplified as .06 > .05. The mean is within the 95% confidence interval. 
 
+<img width="409" alt="image" src="https://user-images.githubusercontent.com/109915684/201388734-8dd27ff7-85b7-4f4a-a34f-4c7e936c88d4.png">
  
-
 Lot 1 has the sample mean of 1500 and a p-value of 1. Hence, we cannot reject the null hypothesis that there is no difference between the sample mean and Population mean. 
 
- 
+ <img width="412" alt="image" src="https://user-images.githubusercontent.com/109915684/201388800-e20f3cb8-2bd7-4c11-8967-6d221c3d2ca1.png">
 
 Lot 2 had very similar outcome with a sample mean of 1500.02 and a p-value of 0.61. Hence the null cannot be rejected similarly to Lot 1. The sample mean and the population mean are very close to 1500.
 
- 
+<img width="429" alt="image" src="https://user-images.githubusercontent.com/109915684/201388959-6dcf00e9-c3eb-4a45-b1e5-97c835583a59.png">
 
 Lot 3 produced a sample mean of 1496.14 and a p-value of 0.04. This was less than the significance level of 0.05. Hence the null hypothesis should be rejected. The sample mean and the population are not statistically different. 
 
- 
+ <img width="410" alt="image" src="https://user-images.githubusercontent.com/109915684/201389005-d8580d39-2518-4e72-8a27-dd4845aa2b03.png">
 
 ## Study Design: MechaCar vs Competition 
  
